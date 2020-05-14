@@ -1,6 +1,6 @@
 {
   "name": "@ngneat/from-event",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "A declarative way to register events in Angular",
   "publishConfig": {
     "access": "public"

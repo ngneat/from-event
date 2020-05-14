@@ -2,6 +2,22 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.2.0](https://github.com/ngneat/from-event/compare/v1.1.0...v1.2.0) (2020-05-14)
+
+
+### Features
+
+* add typing ([4b4d693](https://github.com/ngneat/from-event/commit/4b4d6939204554fdf7857a2af88f2303a1da0c6d))
+
+
+### Bug Fixes
+
+* defer initialization ([e7d668b](https://github.com/ngneat/from-event/commit/e7d668b34eaa2264ffe8e422f0d908bb6041d8b5))
+* remove circular dep and rename That to This ([9e86efa](https://github.com/ngneat/from-event/commit/9e86efa7ebcdc766cca560a6f695452c5dd76f83))
+* **from-event:** return the subject and track change of element. ([15a7fc4](https://github.com/ngneat/from-event/commit/15a7fc4eca7c063274fe4bfa4ce763d7440afbf8))
+* **from-events:** subscribe to event only one time ([b81f69e](https://github.com/ngneat/from-event/commit/b81f69ec7c3683c94e7465d7741ae23b7f8f4a45))
+* subscribe to event when exists and only once ([f4f5a1a](https://github.com/ngneat/from-event/commit/f4f5a1a0061e1ef3ed7428d4c5eb94928d910dc7))
+
 ## [1.1.0](https://github.com/ngneat/from-event/compare/v1.0.2...v1.1.0) (2020-05-11)
 
 
