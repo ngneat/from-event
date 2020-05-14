@@ -1,8 +1,10 @@
 import { Observable, Subject, Subscription } from 'rxjs';
 
-import type { createTokens } from './create-tokens';
-
-export type Tokens = ReturnType<typeof createTokens>;
+export interface Tokens {
+  readonly event: unique symbol;
+  readonly subject: unique symbol;
+  readonly subscription: unique symbol;
+}
 
 declare var tokens: Tokens;
 

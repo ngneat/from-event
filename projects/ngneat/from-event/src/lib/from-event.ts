@@ -1,8 +1,7 @@
 import { ElementRef } from '@angular/core';
 import { fromEvent, defer } from 'rxjs';
 
-import { createTokens } from './create-tokens';
-import { initIfNeeded, subscribeToEventIfPossible } from './helpers';
+import { createTokens, initIfNeeded, subscribeToEventIfPossible } from './helpers';
 import { This } from './types';
 
 export function FromEvent<K extends keyof DocumentEventMap>(event: K, eventOptions?: AddEventListenerOptions) {
